@@ -91,11 +91,6 @@ class Crawler():
         self.driver.close()
         self.driver.quit()
 
-
-
-
-
-
 if __name__ == "__main__":
     crawler = Crawler()
     for _ in range(4):
